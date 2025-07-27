@@ -1,0 +1,72 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f3f4f6;
+  margin: 0;
+  padding: 0;
+  color: #1f2937;
+}
+.hero {
+  background: linear-gradient(135deg, #2563eb, #10b981);
+  color: white;
+  padding: 100px 20px 60px;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+}
+.hero p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.cta-button {
+  background-color: #f97316;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.features {
+  padding: 60px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  background: white;
+}
+.feature-box {
+  background: #f9fafb;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+.lead-capture {
+  text-align: center;
+  background: #ffffff;
+  padding: 60px 20px;
+}
+input[type=email] {
+  padding: 12px;
+  width: 320px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+button[type=submit] {
+  background-color: #2563eb;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  background: #f3f4f6;
+  color: #6b7280;
+}
